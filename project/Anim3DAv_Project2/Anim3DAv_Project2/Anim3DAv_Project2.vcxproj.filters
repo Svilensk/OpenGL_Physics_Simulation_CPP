@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\code\sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\targa\src\targa.c">
+      <Filter>targa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Skybox.cpp">
+      <Filter>Source Files\SceneComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\ShaderProgram.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Shader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Camera.cpp">
+      <Filter>Source Files\SceneComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\PostProcess.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Texture2D.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\TextureSkybox.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\headers\Scene.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Mesh.cpp">
+      <Filter>Source Files\SceneComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\BulletWorldController.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Vehicle.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Model.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libraries\targa\include\targa.h">
+      <Filter>targa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Camera.hpp">
+      <Filter>Header Files\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\ColorBuffer.hpp">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\ColorBuffer_RGBA8888.hpp">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\FragmentShader.hpp">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Mesh.hpp">
+      <Filter>Header Files\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\PostProcess.hpp">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Shader.hpp">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\ShaderProgram.hpp">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Skybox.hpp">
+      <Filter>Header Files\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Texture2D.hpp">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\TextureSkybox.hpp">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\VertexShader.hpp">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\BulletWorldController.hpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Vehicle.hpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Model.hpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="targa">
+      <UniqueIdentifier>{39449749-55be-4558-8425-88ac5ca7889b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0fa8098c-e0fa-4eb0-9363-b1ce00897d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ee6bb821-d64e-41f9-9da3-3fd14e792d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneComponents">
+      <UniqueIdentifier>{3ea673e7-8d14-4e73-8446-ec0130f2d215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{6e7dd021-0b5b-4fc3-ba51-7a7bece0de86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PostProcess">
+      <UniqueIdentifier>{eb742595-4c8c-4279-93c8-1d4bf56b0e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{f301be88-80dc-46bd-8401-2bfc7e2ff680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneComponents">
+      <UniqueIdentifier>{14a06a0e-7451-4ecd-be01-a0915953708c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader">
+      <UniqueIdentifier>{8feb8e76-6863-4acd-af98-7e782618796f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PostProcess">
+      <UniqueIdentifier>{b684dae4-e8f6-4930-b06e-b33d77db0ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures">
+      <UniqueIdentifier>{372615af-6b24-4834-b361-2386ddb3e78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{9af5b3e9-752a-45a4-9a20-c96bdaf93b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{7a061afd-37a9-4d6f-8ffb-97dac66207e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
